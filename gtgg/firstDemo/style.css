@@ -1,0 +1,184 @@
+/* Reset the Default margin and padding that is given by browser */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    background-color: #543434;
+}
+
+.nav-list {
+    width: 60%;
+    /* tablet tak ki size mai shi rahega*/
+    display: flex;
+    /* background-color: black; */
+    align-items: center;
+    /* margin:auto; */
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 12px 23px;
+}
+
+.nav-list li a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.nav-list li a:hover {
+    color: wheat;
+    border-radius: 3px;
+}
+
+/* navbar: logo styling */
+.logo {
+    width: 14%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 35%;
+    border: 4px solid wheat;
+    border-radius: 50px;
+}
+
+.text {
+    margin: auto;
+    padding: 12px;
+    font-size: 30px;
+    text-align: center;
+    color: wheat;
+    font-style: oblique;
+}
+
+.text:hover {
+    color: whitesmoke
+}
+
+.rightNav {
+    /* background-color: red; */
+    text-align: right;
+    /* padding: 0px 0px; */
+    width: 35%;
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right li {
+    margin: auto;
+    list-style: none;
+}
+
+.right li a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.right li a:hover {
+    color: wheat;
+
+    border-radius: 3px;
+}
+
+.textalign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: inherit; */
+    margin-left: 80px;
+    width: 50%;
+}
+
+.Background {
+
+    background: rgb(245 224 224 / 70%) url("bg1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 90vh;
+
+}
+
+.middle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-top: 35vh; */
+
+
+}
+.middle input {
+    width: 34%;
+    font-size: 25px;
+}
+#search{
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+
+.btn {
+    padding: 7px 26px;
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 17px;
+    cursor: pointer;
+    background: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: white;
+    background-color: brown;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: wheat;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.upperImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35vh;
+}
+
+.upperImg img{
+   width: 5%;
+   filter: contrast(4);
+   margin-right: 12px;
+
+}
